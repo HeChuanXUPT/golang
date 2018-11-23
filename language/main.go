@@ -5,7 +5,7 @@ package main
 import (
 	"golang.org/x/text/language"
 	"golang.org/x/text/message"
-_ "golang.org/x/text/message/catalog"
+        _ "github.com/HeChuanXUP/golang/language/catalog"
 )
 
 func main() {
