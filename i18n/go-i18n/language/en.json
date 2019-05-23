@@ -1,0 +1,7 @@
+{
+    "hello_world":"Hello World",
+    "wait":"Wait",
+    "missing_param":{
+        "other":"Missing {{.Key}}."
+    }
+}

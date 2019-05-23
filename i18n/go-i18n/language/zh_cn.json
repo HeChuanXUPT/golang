@@ -1,0 +1,7 @@
+{
+  "hello_world":"程序狗你好啊",
+  "wait":"等待",
+  "missing_param":{
+    "other":"缺失参数{{.Key}}."
+  }
+}
