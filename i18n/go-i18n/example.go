@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/nicksnyder/go-i18n/v2/i18n"
+	"github.com/nicksnyder/go-i18n/i18n"
 	"golang.org/x/text/language"
 )
 
@@ -15,7 +15,7 @@ var loc *i18n.Localizer
 
 func init() {
 	lang = "zh_cn"
-	bundle = &i18n.Bundle{DefaultLanguage: language.English}
+	bundle = i18n.NewBundle(language.English)
 	loc = i18n.NewLocalizer(bundle, lang)
 	if err := loadTranslateFiles("language/"); err != nil {
 		panic(err)
